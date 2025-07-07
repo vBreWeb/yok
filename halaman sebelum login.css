@@ -1,0 +1,69 @@
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50px ;
+    margin-left: 15px;
+    height: 50px;
+}
+
+a:hover {
+  background-color: blue;
+  color: black;
+}
+
+.carousel-inner img {
+  width: 10%;           /* ubah ke nilai seperti 80% jika ingin lebih kecil */
+  height: 500px;          /* menjaga rasio aspek */     /* batas tinggi maksimum */
+  object-fit: cover;     /* menyesuaikan gambar agar tetap rapi */
+  border-radius: 30px;   /* opsional: beri sudut membulat */
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-toggle,
+.dropdown-menu .dropdown-item {
+    font-family: 'Arial', sans-serif; /* Ganti dengan font lain sesuai kebutuhan */
+    font-size: 20px;                  /* Ukuran huruf */
+    font-weight: 500;                 /* Ketebalan huruf */
+    color: white !important;         /* Warna teks */
+}
+
+/* Untuk dropdown menu */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #0056b3;
+    color: #ffffff !important;
+}
+
+/* Jika ingin mengatur font logo juga */
+.navbar .logo {
+    max-height: 50px;
+    margin-right: 15px;
+}
+
+/* Responsive toggle icon style (optional) */
+.navbar-toggler {
+    border-color: white;
+}
+
+/* Ubah warna teks saat aktif */
+.navbar-nav .nav-link.active {
+    color: white !important;
+}
+/* Target tombol "login" di dalam carousel-caption */
+.carousel-caption .btn.btn-primary {
+    font-size: 20px;  /* Ganti ukuran sesuai kebutuhan */
+    font-weight: bold; /* Opsional: untuk membuat huruf tebal */
+    padding: 10px 20px; /* Opsional: atur ruang di dalam tombol */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
